@@ -38,10 +38,10 @@ class HomePage extends StatelessWidget {
             children: <Widget>[
               _Cabecera(),
               Positioned(top: 300, child: _SelectorDia()),
-              Positioned(bottom: 190, child: _SelectorHora()),
-              Positioned(bottom: 100, child: _BotonesInferiores()),
+              Positioned(bottom: 140, child: _SelectorHora()),
+              Positioned(bottom: 85, child: _BotonesInferiores()),
               Positioned(
-                bottom: 0,
+                bottom: 10,
                 child: Hero(
                   tag: 'botonInferior',
                   child: Boton(
